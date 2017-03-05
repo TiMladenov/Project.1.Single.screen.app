@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sofia Tour</string>
+    <string name="companyName_1">Sofia</string>
+    <string name="companyName_2">Tour</string>
+    <string name="service_1">Transport</string>
+    <string name="service_2">Hotels</string>
+    <string name="service_3">Tours</string>
+    <string name="companyPres">Sofia Tour is a company, which was started in 2014 by a group of young enterpreneurs. Their objective was to show Sofia, the Capital city of Bulgaria, an attractive place to visit and to attract visitors from all over the world. The company has a website and mobile phone app, which presents important information to the citys\' visitors in an easy to comprehend fasion. The company aims at providing high quality services to its clients as to make sure that they have great experience during their stay and visit in Bulgaria. In 2015 the company won the "Buglarian Tourism" award, which serves as a proof for the high quality services of the company.</string>
+    <string name="contacts">Contacts</string>
+    <string name="address">Sofia, Vasil Levski blvd. No. 18A</string>
+    <string name="wh">Monday - Friday, 09 AM - 5PM</string>
+    <string name="telNum">+359 880 123 456</string>
+    <string name="site">www.sofiatour.bg</string>
+    <string name="email">info@sofiatour.bg</string>
+    <string name="gplus">Sofia Tour</string>
+</resources>

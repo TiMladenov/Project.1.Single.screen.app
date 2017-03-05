@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="wallpaper">280dp</dimen>
+    <dimen name="vertical">700dp</dimen>
+    <dimen name="Serv">50dp</dimen>
+    <dimen name="genMergTop">5dp</dimen>
+    <dimen name="genMergLeft">10dp</dimen>
+    <dimen name="genMergRight">10dp</dimen>
+    <dimen name="genMergBottom">5dp</dimen>
+    <dimen name="contactWindowSize">190dp</dimen>
+    <dimen name="contactImgSize">25dp</dimen>
+    <dimen name="gPlusSize">32dp</dimen>
+    <dimen name="genericTextSize">15sp</dimen>
+    <dimen name="serviceIconSize">40dp</dimen>
+    <dimen name="contactTextSize">20sp</dimen>
+    <dimen name="companyName">43sp</dimen>
+    <dimen name="contactTextSize_2">14sp</dimen>
+</resources>

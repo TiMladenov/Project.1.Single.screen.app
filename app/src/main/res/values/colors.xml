@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#2e7d32</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lablelTextClr">#FFFFFF</color>
+    <color name="GenericTextClr">#000000</color>
+    <color name="MainBkgrndCol">#cfd8dc</color>
+    <color name="SecondBkgrnd">#eceff1</color>
+    <color name="SecondBkgrndDrk">#607d8b</color>
+</resources>
