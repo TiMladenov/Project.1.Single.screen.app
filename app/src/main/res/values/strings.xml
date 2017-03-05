@@ -1,5 +1,18 @@
 <resources>
     <string name="app_name">Sofia Tour</string>
+    <string name="desc">Aerial Image of Alexander Nevskiy cathedral</string>
+    <string name="desc2">Logo of Sofia Tour, sun and water</string>
+    <string name="desc3">Services, provided by Sofia Tour. From left to right: Hotels, Transport, Tours</string>
+    <string name="desc4">Hotel services</string>
+    <string name="desc5">Transport services</string>
+    <string name="desc6">Tour services</string>
+    <string name="desc7">Contact information</string>
+    <string name="desc8">Address Vassil Levski 18A</string>
+    <string name="desc9">Working hours from 9AM to 5 AM from Monday to Friday</string>
+    <string name="desc10">Phone number +359 880 123 456</string>
+    <string name="desc12">Website www.sofiatour.bg</string>
+    <string name="desc11">Email info@sofiatour.bg</string>
+    <string name="desc13">Google plus page is Sofia Tour</string>
     <string name="companyName_1">Sofia</string>
     <string name="companyName_2">Tour</string>
     <string name="service_1">Transport</string>

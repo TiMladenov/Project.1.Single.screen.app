@@ -12,136 +12,143 @@
 
         <ImageView
             android:id="@+id/image"
-            android:src="@drawable/visit_sofia10"
-            android:scaleType="centerCrop"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/wallpaper" />
+            android:layout_height="@dimen/wallpaper"
+            android:contentDescription="@string/desc"
+            android:scaleType="centerCrop"
+            android:src="@drawable/visit_sofia10" />
 
         <ImageView
             android:id="@+id/image2"
-            android:src="@drawable/visit_sofia10icon"
-            android:layout_marginTop="40dp"
-            android:layout_centerHorizontal="true"
-            android:scaleType="centerCrop"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/mainLogo"
+            android:contentDescription="@string/desc2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/visit_sofia10icon" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/compaNyNameStart"
+            android:layout_marginTop="@dimen/compaNyNameTop"
             android:layout_toStartOf="@id/image2"
-            android:layout_marginTop="65dp"
-            android:layout_marginStart="12dp"
-            android:textSize="@dimen/companyName"
-            android:color="@color/lablelTextClr"
             android:alpha="1"
+            android:color="@color/lablelTextClr"
             android:text="@string/companyName_1"
+            android:textSize="@dimen/companyName"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/compaNyNameStart"
+            android:layout_marginTop="@dimen/compaNyNameTop"
             android:layout_toEndOf="@id/image2"
-            android:layout_marginTop="65dp"
-            android:layout_marginEnd="12dp"
-            android:textSize="@dimen/companyName"
+            android:alpha="1"
             android:color="@color/lablelTextClr"
             android:text="@string/companyName_2"
-            android:alpha="1"
+            android:textSize="@dimen/companyName"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/services"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="@dimen/servicesHeight"
             android:layout_below="@id/image"
-            android:background="@color/SecondBkgrnd"
-            android:layout_marginTop="@dimen/genMergTop"
-            android:layout_marginStart="@dimen/genMergLeft"
+            android:layout_marginBottom="@dimen/genMergBottom"
             android:layout_marginEnd="@dimen/genMergRight"
-            android:layout_marginBottom="@dimen/genMergBottom" />
+            android:layout_marginStart="@dimen/genMergLeft"
+            android:layout_marginTop="@dimen/genMergTop"
+            android:background="@color/SecondBkgrnd"
+            android:contentDescription="@string/desc3" />
 
         <ImageView
             android:id="@+id/transport"
             android:layout_width="@dimen/serviceIconSize"
             android:layout_height="@dimen/serviceIconSize"
-            android:src="@drawable/transport_black"
+            android:layout_below="@id/image"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="1dp"
-            android:layout_below="@id/image" />
+            android:layout_marginTop="@dimen/servicesButtonsTop"
+            android:contentDescription="@string/desc5"
+            android:src="@drawable/transport_black" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/transport"
             android:layout_centerHorizontal="true"
+            android:text="@string/service_1"
             android:textColor="@color/GenericTextClr"
-            android:textSize="@dimen/genericTextSize"
-            android:text="@string/service_1"/>
+            android:textSize="@dimen/genericTextSize" />
 
         <ImageView
             android:id="@+id/hotel"
             android:layout_width="@dimen/serviceIconSize"
             android:layout_height="@dimen/serviceIconSize"
-            android:src="@drawable/hotel_black"
-            android:layout_marginTop="1dp"
-            android:layout_marginStart="@dimen/Serv"
             android:layout_alignParentStart="true"
-            android:layout_below="@id/image"/>
+            android:layout_below="@id/image"
+            android:layout_marginStart="@dimen/Serv"
+            android:layout_marginTop="@dimen/servicesButtonsTop"
+            android:contentDescription="@string/desc4"
+            android:src="@drawable/hotel_black" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/hotel"
             android:layout_alignParentStart="true"
+            android:layout_below="@id/hotel"
             android:layout_marginStart="@dimen/Serv"
+            android:text="@string/service_2"
             android:textColor="@color/GenericTextClr"
-            android:textSize="@dimen/genericTextSize"
-            android:text="@string/service_2"/>
+            android:textSize="@dimen/genericTextSize" />
 
         <ImageView
             android:id="@+id/map"
             android:layout_width="@dimen/serviceIconSize"
             android:layout_height="@dimen/serviceIconSize"
-            android:src="@drawable/map_black"
-            android:layout_marginTop="1dp"
-            android:layout_marginEnd="@dimen/Serv"
             android:layout_alignParentEnd="true"
-            android:layout_below="@id/image"/>
+            android:layout_below="@id/image"
+            android:layout_marginEnd="@dimen/Serv"
+            android:layout_marginTop="@dimen/servicesButtonsTop"
+            android:contentDescription="@string/desc6"
+            android:src="@drawable/map_black" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/map"
             android:layout_alignParentEnd="true"
+            android:layout_below="@id/map"
             android:layout_marginEnd="@dimen/Serv"
+            android:text="@string/service_3"
             android:textColor="@color/GenericTextClr"
-            android:textSize="@dimen/genericTextSize"
-            android:text="@string/service_3"/>
+            android:textSize="@dimen/genericTextSize" />
 
         <TextView
             android:id="@+id/companyInfo"
-            android:layout_below="@id/services"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/SecondBkgrnd"
-            android:layout_marginStart="@dimen/genMergLeft"
-            android:layout_marginEnd="@dimen/genMergRight"
+            android:layout_below="@id/services"
             android:layout_marginBottom="@dimen/genMergBottom"
-            android:padding="8dp"
+            android:layout_marginEnd="@dimen/genMergRight"
+            android:layout_marginStart="@dimen/genMergLeft"
+            android:background="@color/SecondBkgrnd"
+            android:padding="@dimen/companyInfoPadding"
+            android:text="@string/companyPres"
             android:textColor="@color/GenericTextClr"
-            android:textSize="@dimen/genericTextSize"
-            android:text="@string/companyPres"/>
+            android:textSize="@dimen/genericTextSize" />
 
         <ImageView
             android:id="@+id/contacts"
             android:layout_width="match_parent"
             android:layout_height="@dimen/contactWindowSize"
             android:layout_below="@id/companyInfo"
-            android:background="@color/SecondBkgrnd"
-            android:layout_marginStart="@dimen/genMergLeft"
+            android:layout_marginBottom="@dimen/genMergBottom"
             android:layout_marginEnd="@dimen/genMergRight"
-            android:layout_marginBottom="@dimen/genMergBottom" />
+            android:layout_marginStart="@dimen/genMergLeft"
+            android:background="@color/SecondBkgrnd"
+            android:contentDescription="@string/desc7" />
 
         <TextView
             android:id="@+id/contact_text"
@@ -149,9 +156,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/companyInfo"
             android:layout_centerHorizontal="true"
-            android:textSize="@dimen/contactTextSize"
+            android:text="@string/contacts"
             android:textColor="@color/GenericTextClr"
-            android:text="@string/contacts"/>
+            android:textSize="@dimen/contactTextSize" />
 
         <ImageView
             android:id="@+id/address_icon"
@@ -159,22 +166,23 @@
             android:layout_height="@dimen/contactImgSize"
             android:layout_alignParentStart="true"
             android:layout_below="@id/contact_text"
-            android:src="@drawable/address_black_24dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="10dp" />
+            android:layout_marginEnd="@dimen/marginEnd1"
+            android:layout_marginStart="@dimen/marginStart1"
+            android:layout_marginTop="@dimen/marginTop1"
+            android:contentDescription="@string/desc8"
+            android:src="@drawable/address_black_24dp" />
 
         <TextView
             android:id="@+id/address_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/contact_text"
+            android:layout_marginEnd="@dimen/marginEnd1"
+            android:layout_marginTop="@dimen/marginTop2"
             android:layout_toEndOf="@id/address_icon"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="10dp"
-            android:textSize="@dimen/contactTextSize_2"
+            android:text="@string/address"
             android:textColor="@color/GenericTextClr"
-            android:text="@string/address"/>
+            android:textSize="@dimen/contactTextSize_2" />
 
         <ImageView
             android:id="@+id/hour_icon"
@@ -182,22 +190,23 @@
             android:layout_height="@dimen/contactImgSize"
             android:layout_alignParentStart="true"
             android:layout_below="@id/address_icon"
-            android:src="@drawable/wh_black_24dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="10dp" />
+            android:layout_marginEnd="@dimen/marginEnd1"
+            android:layout_marginStart="@dimen/marginStart1"
+            android:layout_marginTop="@dimen/marginTop1"
+            android:contentDescription="@string/desc9"
+            android:src="@drawable/wh_black_24dp" />
 
         <TextView
             android:id="@+id/hour_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/address_text"
+            android:layout_marginEnd="@dimen/marginEnd1"
+            android:layout_marginTop="@dimen/marginTop2"
             android:layout_toEndOf="@id/hour_icon"
-            android:layout_marginEnd="10dp"
-            android:layout_marginTop="12dp"
-            android:textSize="@dimen/contactTextSize_2"
+            android:text="@string/wh"
             android:textColor="@color/GenericTextClr"
-            android:text="@string/wh"/>
+            android:textSize="@dimen/contactTextSize_2" />
 
         <ImageView
             android:id="@+id/tel_icon"
@@ -205,22 +214,23 @@
             android:layout_height="@dimen/contactImgSize"
             android:layout_alignParentStart="true"
             android:layout_below="@id/hour_icon"
-            android:src="@drawable/phone_black_24dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="10dp" />
+            android:layout_marginEnd="@dimen/marginEnd1"
+            android:layout_marginStart="@dimen/marginStart1"
+            android:layout_marginTop="@dimen/marginTop1"
+            android:contentDescription="@string/desc10"
+            android:src="@drawable/phone_black_24dp" />
 
         <TextView
             android:id="@+id/tel_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/hour_text"
+            android:layout_marginEnd="@dimen/marginEnd1"
+            android:layout_marginTop="@dimen/marginTop2"
             android:layout_toEndOf="@id/tel_icon"
-            android:layout_marginEnd="10dp"
-            android:layout_marginTop="12dp"
-            android:textSize="@dimen/contactTextSize_2"
+            android:text="@string/telNum"
             android:textColor="@color/GenericTextClr"
-            android:text="@string/telNum"/>
+            android:textSize="@dimen/contactTextSize_2" />
 
         <ImageView
             android:id="@+id/site_icon"
@@ -228,45 +238,47 @@
             android:layout_height="@dimen/contactImgSize"
             android:layout_alignParentStart="true"
             android:layout_below="@id/tel_icon"
-            android:src="@drawable/site_black_24dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="10dp" />
+            android:layout_marginEnd="@dimen/marginEnd1"
+            android:layout_marginStart="@dimen/marginStart1"
+            android:layout_marginTop="@dimen/marginTop1"
+            android:contentDescription="@string/desc12"
+            android:src="@drawable/site_black_24dp" />
 
         <TextView
             android:id="@+id/site_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/tel_text"
+            android:layout_marginEnd="@dimen/marginEnd2"
+            android:layout_marginTop="@dimen/marginTop3"
             android:layout_toEndOf="@id/site_icon"
-            android:layout_marginEnd="11dp"
-            android:layout_marginTop="14dp"
-            android:textSize="@dimen/contactTextSize_2"
+            android:text="@string/site"
             android:textColor="@color/GenericTextClr"
-            android:text="@string/site"/>
+            android:textSize="@dimen/contactTextSize_2" />
 
         <TextView
             android:id="@+id/email_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tel_text"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="21dp"
-            android:layout_marginTop="14dp"
-            android:textSize="@dimen/contactTextSize_2"
+            android:layout_below="@id/tel_text"
+            android:layout_marginEnd="@dimen/marginEnd3"
+            android:layout_marginTop="@dimen/marginTop3"
+            android:text="@string/email"
             android:textColor="@color/GenericTextClr"
-            android:text="@string/email"/>
+            android:textSize="@dimen/contactTextSize_2" />
 
         <ImageView
             android:id="@+id/mail_icon"
             android:layout_width="@dimen/contactImgSize"
             android:layout_height="@dimen/contactImgSize"
-            android:layout_toStartOf="@id/email_text"
             android:layout_below="@id/tel_icon"
-            android:src="@drawable/mail_black_24dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="10dp" />
+            android:layout_marginEnd="@dimen/marginEnd1"
+            android:layout_marginStart="@dimen/marginStart1"
+            android:layout_marginTop="@dimen/marginTop1"
+            android:layout_toStartOf="@id/email_text"
+            android:contentDescription="@string/desc11"
+            android:src="@drawable/mail_black_24dp" />
 
         <TextView
             android:id="@+id/gplus_text"
@@ -274,18 +286,19 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/site_text"
             android:layout_centerHorizontal="true"
-            android:layout_marginEnd="11dp"
-            android:layout_marginTop="12dp"
-            android:textSize="@dimen/contactTextSize_2"
+            android:layout_marginEnd="@dimen/marginEnd2"
+            android:layout_marginTop="@dimen/marginTop2"
+            android:text="@string/gplus"
             android:textColor="@color/GenericTextClr"
-            android:text="@string/gplus"/>
+            android:textSize="@dimen/contactTextSize_2" />
 
         <ImageView
             android:id="@+id/gplus_icon"
             android:layout_width="@dimen/gPlusSize"
             android:layout_height="@dimen/gPlusSize"
-            android:layout_toStartOf="@id/gplus_text"
             android:layout_below="@id/mail_icon"
+            android:layout_toStartOf="@id/gplus_text"
+            android:contentDescription="@string/desc13"
             android:src="@drawable/gplus_2_black_24dp" />
     </RelativeLayout>
 </ScrollView>
